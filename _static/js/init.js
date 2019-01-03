@@ -55,7 +55,7 @@ jQuery( document ).ready(function( $ ) {
 	/**********Menu Close Logic***************/
 
 	//$( '.navbar-collapse.in' ).niceScroll( { cursorcolor: "#c8bd9f" } );
-	$( '.navbar-collapse.in' ).niceScroll().hide();
+	// $( '.navbar-collapse.in' ).niceScroll().hide();
 	
 	
 	$( '.nav li a' ).click( function() {
@@ -73,6 +73,6 @@ jQuery( document ).ready(function( $ ) {
 	});
 	
 	/******* Nice Scroll *******/
-	$("html").niceScroll();
+	// $("html").niceScroll().remove();
 
 });

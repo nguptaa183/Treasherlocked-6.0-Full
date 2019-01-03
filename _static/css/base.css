@@ -26,7 +26,10 @@ body {
 	font-size: 14px;
 	font-style: normal;
 	line-height:1.5;
-	overflow: hidden;
+	/* overflow: hidden; */
+	/* overflow-y: scroll !important; */
+	overflow-x: hidden;
+
 }
 
 button:focus{
@@ -96,9 +99,6 @@ p {
     line-height: 1.6em;
 }
 
-html {
-	overflow: hidden;
-}
 .bottom-spacing {
 	margin-bottom:2.5%;
 }

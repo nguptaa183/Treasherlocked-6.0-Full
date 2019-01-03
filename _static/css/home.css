@@ -85,21 +85,33 @@ hr {
 	z-index: -1;
 }
 
-.img-home-admin{
-	padding-left: 80px;
+.admin {
+	padding-top: 40px;
+	background: #25282F;
 }
 
-.img-home-admin p{
-	text-align : center;
+.social {
+	margin: 15px;
+	padding-right: 50px;
+
+}
+
+.img-rounded {
+	height: 125px;
+	width: 125px;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.adminname {
+	text-align: center;
 	color: white;
-	font-size: 14px;
-	font-weight: 200;
+	padding-top: 10px;
 }
 
-.box{
+/* .box{
 	padding: 50px 0 50px 200px;
 	
-}
+} */
 
 @-webkit-keyframes back_animation {
 	0% {
