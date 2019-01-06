@@ -8,8 +8,8 @@
 					<?php } ?>
 				
 				<?php if ( !isset( $_SESSION['logged_in'] ) || !$_SESSION['logged_in'] ): ?>
-					<li><a class="btn-effect btn" data-scroll href="<?php echo SITE_URL; ?>login/">Login</a></li>
-					<li><a class="btn-effect btn" data-scroll href="<?php echo SITE_URL; ?>signup/">Sign Up</a></li>
+					<li><a class="btn-effect btn" data-scroll href="<?php echo SITE_URL; ?>login/"><i class="fas fa-user" style="margin-right:3px;"></i>Login</a></li>
+					<li><a class="btn-effect btn" data-scroll href="<?php echo SITE_URL; ?>signup/"><i class="fas fa-user-plus" style="margin-right:3px;"></i>Sign Up</a></li>
 					<?php endif; ?>
 
 <?php

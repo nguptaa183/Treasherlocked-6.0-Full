@@ -93,7 +93,7 @@ if ($event_status == EVENT_NOT_STARTED) {
 	<section id="home" class="autoheight">
 		<div class="home-bg"></div>
 		<div class="col-lg-12 landing-text-pos align-center">
-			<img id="logo" class="wow animated fadeInDown img-responsive align-center" data-wow-duration="1s" data-wow-delay="1s" src="<?php echo SSTATIC; ?>img/logo.png" />
+			<img id="logo" class="wow animated fadeInDown img-responsive align-center" data-wow-duration="1s" data-wow-delay="1s" src="<?php echo SSTATIC; ?>img/Logo6.0.png" />
 			<h2 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">because the hunt is on</h2>
 			<hr id="title_hr" />
 			<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">11-13 January 2019</p>
@@ -209,7 +209,8 @@ switch ($event_status) {
 			<div class="space space-40"></div>
 			<div class="row">
 				<a href="https://www.facebook.com/MicrosoftCampusClub" target="_blank"><img src="<?php echo SSTATIC; ?>img/msclublogo.png"/></a>
-				<p>a <a href="https://www.facebook.com/MicrosoftCampusClub">Microsoft Campus Club</a> event</p>
+				<p>a <a href="https://www.facebook.com/MicrosoftCampusClub" style="color:#7a7a7a
+">Microsoft Campus Club</a> event</p>
 			</div>
 		</div>
 	</section>

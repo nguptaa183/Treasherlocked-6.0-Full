@@ -101,7 +101,7 @@
 
 	/** Menu**/
 	.navbar-default .navbar-nav  >  li  >  a{
-		/*font-size:1.3em;*/
+		/* font-size:1.3em; */
 	}
 
 	/** Schedule download and social icons **/
@@ -177,7 +177,7 @@
 		float: none;
 	}
 	.header.header-hide {
-		background: none repeat scroll 0 0 #363738;
+		/* background: none repeat scroll 0 0 #363738; */
 	}
 	.navbar-header {
 		float: none;
@@ -274,7 +274,7 @@
 	}
 
 	.header.header-hide {
-		background: none repeat scroll 0 0 #363738;
+		/* background: none repeat scroll 0 0 #363738; */
 	}
 
 	/* Schedule social links*/

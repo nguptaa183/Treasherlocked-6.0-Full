@@ -72,7 +72,7 @@ hr {
 
 .home-bg {
 	animation: 60s ease 0s normal none infinite back_animation;
-	background: url('../img/backgrounds/sci-fi-min.png') no-repeat center center;
+	background: url('../img/backgrounds/sci-fi-min.png') no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -113,7 +113,7 @@ a:focus {
 
 #home-admin ul li img {
 	display: inline-block;
-	background-color: #af262e;
+	/* background-color: #af262e; */
 	border-radius: 20px;
 	font-size: 48px;
 	font-weight: 400;
@@ -196,7 +196,7 @@ a:focus {
 }
 
 #title_hr {
-	border: 1px solid #af262e;
+	border: 1px solid #5A2F46;
 	margin: 1.8em auto 2.9em;
 	width: 50px;
 }
@@ -249,7 +249,7 @@ a:focus {
 
 #countdown ul li span {
 	display: inline-block;
-	background-color: #af262e;
+	background-color: #5A2F46;
 	border-radius: 20px;
 	font-size: 48px;
 	font-weight: 400;
@@ -275,14 +275,19 @@ a:focus {
 /** Sponsor **/
 /*****************************/
 #sponsors {
-	background-color: #363738;
-	border-top: 1px solid #202229;
-	border-bottom: 1px solid #212329;
+	background-color: #f3f5f8;
+	/* border-top: 1px solid #202229; */
+	/* border-bottom: 1px solid #212329; */
 	text-align: center;
 }
 
 #sponsors * {
 	//outline: 1px solid;
+}
+
+#sponsors .sponsor .sponsor-font{
+	font-size: 13px;
+	color:#7a7a7a;
 }
 
 #sponsors p {
@@ -405,7 +410,7 @@ a:focus {
 }
 
 .cnt223 p a:hover{
-	color: #ac262e;
+	color: #5A2F46;
 }
 
 #pop-up-close{

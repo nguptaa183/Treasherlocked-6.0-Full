@@ -20,7 +20,7 @@ strong {
 }
  
 body {
-	background-color: #25282f;
+	background-color: #5A2F46;
 	color: #7a7a7a;
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -41,14 +41,14 @@ ul {
     list-style: none;
 }
 
-a {
+/* a {
     color: #af262e;
     text-decoration: none;
 	font-weight: 500;
 	font-size: 15px;
-}
+} */
 
-a:hover {
+/* a:hover {
     color: #af262e;
     text-decoration: underline;
 }
@@ -56,7 +56,7 @@ a:hover {
 a:focus {
  	color: #af262e;
     outline: none;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
@@ -148,8 +148,9 @@ p {
 /****************************/
 
 #header, .scroll-header{
-	background: none repeat scroll 0 0 #363738;
+	background: none repeat scroll 0 0 transparent;
 }
+
 
 .header{
 	top:0;
@@ -198,6 +199,7 @@ p {
 }
 
 .navbar-toggle {
+
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -236,14 +238,14 @@ p {
 
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ef262e;
+	color: #ffffff;
 	font-weight: bold;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #ef262e;
+	color: #ffffff;
 	background: none;
 	font-weight: bold;
 }
@@ -254,10 +256,10 @@ p {
  {
 	padding-top: 6px;
 	padding-bottom: 6px;
-	background-color: #af262e;
+	background-color: #5A2F46;
 	border-radius: 0px;
-	padding-left: 25px;
-	padding-right: 25px;
+	/* padding-left: 25px; */
+	/* padding-right: 25px; */
 	margin-left: 15px;
 	margin-top: 0;
 	color: #fff;
@@ -345,6 +347,7 @@ p {
 .dropdown li > a:hover,
 .dropdown2 li > a:hover
  {
+	 
 	background-color: #af262e;
 }
 
@@ -378,7 +381,7 @@ p {
 }
 
 .btn-effect {
-	background: none repeat scroll 0 0 #af262e;
+	background: none repeat scroll 0 0 #5A2F46;
 	display: inline-block;
     font-size: 1em;
     font-weight: 600;
@@ -401,7 +404,7 @@ p {
 }
 
 .btn-effect:after {
-	background: none repeat scroll 0 0 #000;
+	/* background: none repeat scroll 0 0 #000; */
 	border-radius: 5px;
 	height: 0;
 	left: 0;
@@ -631,10 +634,10 @@ footer a {
 }
 
 footer {
-	background-color: #25282f;
-	border-top: 1px solid #212329;
+	background-color: #5A2F46;
+	/* border-top: 1px solid #212329; */
     padding: 25px 0;
-	color: #666;
+	color: #ffffff;
 	font-weight: 400;
 }
 
@@ -661,18 +664,15 @@ footer ul li:last-child::after {
 
 footer ul li a {
 	font-weight: 400;
-	color: #a5aca5;
+	color: #ffffff;
 }
 
 footer ul li a:hover {
 	text-decoration: none;
-	color: #ef262e;
+	color: #ffffff;
 }
 
 footer * {
 	font-size: 13px;
 }
 
-.sponsor-font{
-	font-size: 13px;
-}
