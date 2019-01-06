@@ -46,12 +46,18 @@ if ($event_status == EVENT_NOT_STARTED) {
 	<link href="<?php echo SSTATIC; ?>css/home.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/queries.css" rel="stylesheet" />
 
+	<!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="http://jrain.oscitas.netdna-cdn.com/tutorial/css/fontawesome-all.min.css">
+
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
 <body id="top">
+
 	<!-- <div class='popup' id="advert">
 		<div class='cnt223'>
 			<p>
@@ -100,6 +106,9 @@ if ($event_status == EVENT_NOT_STARTED) {
 			<?php if (!$loggedIn) {?>
 			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'signup/'; ?>">Register Now</a>
 			<?php }?>
+			<div class="tagline">
+        		<a class="js-scroll-trigger wow animated fadeInDown fas fa-arrow-down fa-3x" data-wow-duration="0.5s" data-wow-delay="2s" data-scroll href="#countdown" style="color: #ffffff"></a>
+      		</div>
 		</div>
 	</section>
 
@@ -124,207 +133,82 @@ switch ($event_status) {
 	<?php /* ---COUNTDOWN */?>
 
 	<?php /*-- HOME ADMIN-- */?>
-
-
-	<section id="team">
+	
+	<section id="home-admin" class="text-center">
 		<div class="container">
 			<div class="row">
-			<!--Profile Card 5-->
-			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6 mt-4">
-			<div class="card profile-card-5">
-				<div class="card-img-block">
-				<img class="card-img-top" src="assets/img/coordinators/suhaiv.jpg" alt="Suhaiv">
-				</div>
-				<div class="card-body pt-0">
-				<h5 class="card-title">Suhaiv Man Singh</h5>
-				<p class="card-text">President</p>
-				<ul class="social-links">
+				<h2>Home Admins</h2>
+				<ul>
 					<li>
-					<a href="#" class="fab fa-facebook"></a>
+						<img class="img-responsive align-center" src="https://www.treasherlocked.com/_static/img/admin/acd.jpg" />
+ 						<br/>
+ 						<p>Admin ACD</p>
 					</li>
 					<li>
-					<a href="#" class="fab fa-linkedin"></a>
+						<img class="img-responsive align-center" src="https://www.treasherlocked.com/_static/img/admin/sherlock.jpg" />
+	   					<br/>
+	   					<p>Admin Sherlock</p>
 					</li>
 					<li>
-					<a href="#" class="fab fa-github-square"></a>
+						<img class="img-responsive align-center" src="https://www.treasherlocked.com/_static/img/admin/watson.jpg" />
+	 					<br/>
+	 					<p>Admin Watson</p>
 					</li>
-
+					<li>
+					  	<img class="img-responsive align-center" src="https://www.treasherlocked.com/_static/img/admin/moriarty.jpg" />
+	   					<br/>
+	   					<p>Admin Moriarty</p>
+					</li>
+					<li>
+					  	<img class="img-responsive align-center" src="https://www.treasherlocked.com/_static/img/admin/mycroft.jpg" />
+	   					<br/>
+	   					<p>Admin Mycroft</p>
+					</li>
 				</ul>
-				</div>
 			</div>
-			</div>
-
-			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6 mt-4">
-			<div class="card profile-card-5">
-				<div class="card-img-block">
-				<img class="card-img-top" src="assets/img/coordinators/nikhil.jpg" alt="Nikhil">
-				</div>
-				<div class="card-body pt-0">
-				<h5 class="card-title">Nikhil Gupta</h5>
-				<p class="card-text">Techincal Coordinator</p>
-				<ul class="social-links">
-					<li>
-					<a href="#" class="fab fa-facebook"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-linkedin"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-github-square"></a>
-					</li>
-
-				</ul>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6 mt-4">
-			<div class="card profile-card-5">
-				<div class="card-img-block">
-				<img class="card-img-top" src="assets/img/coordinators/sahithi.jpg" alt="Sahithi">
-				</div>
-				<div class="card-body pt-0">
-				<h5 class="card-title">Sahithi Ravipati</h5>
-				<p class="card-text">Coordinator</p>
-				<ul class="social-links">
-					<li>
-					<a href="#" class="fab fa-facebook"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-linkedin"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-github-square"></a>
-					</li>
-
-				</ul>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6 mt-4">
-			<div class="card profile-card-5">
-				<div class="card-img-block">
-				<img class="card-img-top" src="assets/img/coordinators/ajit.jpg" alt="Ajit">
-				</div>
-				<div class="card-body pt-0">
-				<h5 class="card-title">Ajit Kumar Behera</h5>
-				<p class="card-text">Coordinator</p>
-				<ul class="social-links">
-					<li>
-					<a href="#" class="fab fa-facebook"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-linkedin"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-github-square"></a>
-					</li>
-
-				</ul>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6 mt-4">
-			<div class="card profile-card-5">
-				<div class="card-img-block">
-				<img class="card-img-top" src="assets/img/coordinators/aishworya.jpg" alt="Aishworya">
-				</div>
-				<div class="card-body pt-0">
-				<h5 class="card-title">Aishworya Roy</h5>
-				<p class="card-text">Content Coordinator</p>
-				<ul class="social-links">
-					<li>
-					<a href="#" class="fab fa-facebook"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-linkedin"></a>
-					</li>
-					<li>
-					<a href="#" class="fab fa-github-square"></a>
-					</li>
-
-				</ul>
-				</div>
-			</div>
-			</div>
-		</div>
-    </div>
-  </section>
-
-
-
-
-	<section class="admin">
-		<div class="container">
-			<ul class="nav justify-content-center">
-			<li class="nav navbar social">
-				<img src="<?php echo SSTATIC; ?>img/admin/acd.jpg" class="img-responsive img-rounded" alt="img1"><br />
-				<p class="adminname">Admin ACD</p>
-			</li>
-			<li class="nav navbar social">
-				<img src="<?php echo SSTATIC; ?>img/admin/sherlock.jpg" class="img-responsive img-rounded" alt="img2"/><br />
-				<p class="adminname">Admin Sherlock</p>
-
-			</li>
-			<li class="nav navbar social">
-				<img src="<?php echo SSTATIC; ?>img/admin/watson.jpg" class="img-responsive img-rounded" alt="img3"><br />
-				<p class="adminname">Admin Watson</p>
-
-			</li>
-			<li class="nav navbar social">
-				<img src="<?php echo SSTATIC; ?>img/admin/moriarty.jpg" class="img-responsive img-rounded" alt="img1"><br />
-				<p class="adminname">Admin Moriarty</p>
-
-			</li>
-			<li class="nav navbar social">
-				<img src="<?php echo SSTATIC; ?>img/admin/mycroft.jpg" class="img-responsive img-rounded" alt="img2"/><br />
-				<p class="adminname">Admin Mycroft</p>
-
-			</li>
-			</ul>
 		</div>
 	</section>
-
-
+	
 
 	<?php /*-- HOME ADMIN-- */?>
 
 	<?php /* SPONSORS--- */?>
 	<section id="sponsors" class="text-center section-padding">
+
 		<div class="container">
-			<!--<div class="sponsor">
-				<?php /*<a href="http://www.printview.in/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/printview.png" /></img></a>
-<span class="sponsor-font">Title Sponsor</span> */?>
+			<h2>Our Sponsors</h2>
+
+			<div class="sponsor">
+				<a href="http://silantechnology.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/silian.jpg" class="img-responsive"/></a>
+				<span class="sponsor-font">Ttile Sponsor</span>
 			</div>
 			<div class="sponsor">
-				<a href="http://silantechnology.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/silian.jpg" /></a>
+				<a href="https: //www.facebook.com/RENU-MINU-Restaurant-682809901783987/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/renuminu.png" class="img-responsive"/></a>
 				<span class="sponsor-font">Gold Sponsor</span>
 			</div>
 			<div class="sponsor">
-				 <a href="https://www.thesouledstore.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/souledstore.jpg" /></a>
-				<span class="sponsor-font">Merchandise Partner</span>
+				 <a href="https://www.thesouledstore.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/souledstore.jpg" class="img-responsive"/></a>
+				<span class="sponsor-font">Gifting Partner</span>
 			</div>
 			<div class="sponsor">
-				<a href="http://www.punambookstore.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/punam.jpg" /></a>
+				<a href="http://www.punambookstore.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/punam.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Associate Partner</span>
 			</div>
-			<div class="sponsor">
-				<a href="http://innovision.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/innovision.jpg" /></a>
+			<!-- <div class="sponsor">
+				<a href="http://innovision.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/innovision.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Event Partner</span>
-			</div>
+			</div> -->
 			<div class="sponsor">
-				<a href="https://www.facebook.com/Cinematics.nitr/?ref=br_rs" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/cinematics.jpg" /></a>
+				<a href="https://www.facebook.com/Cinematics.nitr/?ref=br_rs" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/cinematics.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Publicity Partner</span>
 			</div>
 			<div class="sponsor">
-				<a href="http://mondaymorning.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/mm.png" /></a>
+				<a href="http://mondaymorning.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/mm.png" class="img-responsive"/></a>
 				<span class="sponsor-font">Media Partner</span>
-			</div>-->
+			</div>
 			<div class="space space-40"></div>
 			<div class="row">
-				<a href="https://www.facebook.com/MicrosoftCampusClub" target="_blank"><img src="<?php echo SSTATIC; ?>img/msclublogo.png" /></a>
+				<a href="https://www.facebook.com/MicrosoftCampusClub" target="_blank"><img src="<?php echo SSTATIC; ?>img/msclublogo.png"/></a>
 				<p>a <a href="https://www.facebook.com/MicrosoftCampusClub">Microsoft Campus Club</a> event</p>
 			</div>
 		</div>
@@ -351,8 +235,7 @@ switch ($event_status) {
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/init_countdown.js"></script>
 	<?php endif;?>
 
-
-
 	<?php require 'includes/html/tracking.php';?>
+
 </body>
 </html>

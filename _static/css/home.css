@@ -27,8 +27,8 @@
 }
 
 .section-padding {
-	padding-top: 6%;
-	padding-bottom: 6%;
+	padding-top: 3%;
+	padding-bottom: 4%;
 }
 
 .section-padding#responsive{
@@ -85,33 +85,61 @@ hr {
 	z-index: -1;
 }
 
-.admin {
-	padding-top: 40px;
-	background: #25282F;
+
+ 
+.tagline{
+	margin: 70px;
+}
+.tagline a:hover,
+a:active,
+a:visited,
+a:focus {
+	color: #ffffff;
+	transform: scale(1.5);
+	transition: transform 0.2s;
+	text-decoration: none;
 }
 
-.social {
-	margin: 15px;
-	padding-right: 50px;
-
+#home-admin{
+	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
-.img-rounded {
-	height: 125px;
-	width: 125px;
-	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-}
-
-.adminname {
+#home-admin ul li {
+	display: inline-block;
+	margin: 0 25px;
 	text-align: center;
-	color: white;
-	padding-top: 10px;
 }
 
-/* .box{
-	padding: 50px 0 50px 200px;
-	
-} */
+#home-admin ul li img {
+	display: inline-block;
+	background-color: #af262e;
+	border-radius: 20px;
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+	height: 120px;
+	width: 120px;
+	line-height: 120px;
+	position: relative;
+}
+
+#home-admin ul li p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#home-admin h2 {
+	margin: 0 0 35px;
+}
+
+/* scroll bar custom */
+
+ /* scroll bar custom ends */
 
 @-webkit-keyframes back_animation {
 	0% {

@@ -26,11 +26,11 @@ body {
 	font-size: 14px;
 	font-style: normal;
 	line-height:1.5;
-	/* overflow: hidden; */
-	/* overflow-y: scroll !important; */
 	overflow-x: hidden;
 
 }
+
+
 
 button:focus{
 	border:none;
@@ -99,6 +99,7 @@ p {
     line-height: 1.6em;
 }
 
+
 .bottom-spacing {
 	margin-bottom:2.5%;
 }
@@ -146,11 +147,12 @@ p {
 /** Navigation Bootstrap **/
 /****************************/
 
-#header, .scroll-header {
+#header, .scroll-header{
 	background: none repeat scroll 0 0 #363738;
 }
 
-.header {
+.header{
+	top:0;
 	width: 100%;
 	position: fixed;
 	z-index: 3;

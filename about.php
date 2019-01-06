@@ -77,8 +77,8 @@
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/jquery-ui-1.10.4.min.js"></script>
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/bootstrap.min.js" ></script>
-	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/smooth-scroll.js"></script>
-	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/jquery.nicescroll.js"></script>
+	<!-- <script type="text/javascript" src="<?php echo SSTATIC; ?>js/smooth-scroll.js"></script> -->
+	<!-- <script type="text/javascript" src="<?php echo SSTATIC; ?>js/jquery.nicescroll.js"></script> -->
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/wow.min.js"></script>
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/init.js"></script>
 	
