@@ -72,7 +72,7 @@ hr {
 
 .home-bg {
 	animation: 60s ease 0s normal none infinite back_animation;
-	background: url('../img/backgrounds/bg.png') no-repeat center center;
+	background: url('../img/backgrounds/sci-fi-min.png') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -89,7 +89,6 @@ hr {
  
 .tagline{
 	margin: 70px;
-
 }
 .tagline a:hover,
 a:active,
