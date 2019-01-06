@@ -106,8 +106,8 @@ if ($event_status == EVENT_NOT_STARTED) {
 			<?php if (!$loggedIn) {?>
 			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'signup/'; ?>">Register Now</a>
 			<?php }?>
-			<div class="tagline">
-        		<a class="js-scroll-trigger wow animated fadeInDown fas fa-arrow-down fa-3x" data-wow-duration="0.5s" data-wow-delay="2s" data-scroll href="#countdown" style="color: #ffffff"></a>
+			<div class="tagline wow animated fadeInDown">
+        		<a class="js-scroll-trigger fas fa-arrow-down fa-3x" data-wow-duration="0.5s" data-wow-delay="2s" data-scroll href="#countdown" style="color: #ffffff"></a>
       		</div>
 		</div>
 	</section>
