@@ -47,7 +47,7 @@
 						a series of cryptic levels.
 					</li>
 					<li>
-						The event shall be held over 3 days, starting from 27<sup>th</sup> October 2017. Check 
+						The event shall be held over 3 days, starting from 11<sup>th</sup> January 2019. Check 
 						<a href="https://www.facebook.com/MicrosoftCampusClub">this page</a> for regular updates.
 					</li>
 					<li>
