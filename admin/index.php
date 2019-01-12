@@ -6,7 +6,7 @@
 	
 	if ( $_SERVER['REQUEST_METHOD'] == 'POST' && !isset( $_SESSION['admin_logged_in'] ) ) {
 		
-		if ( $_POST['password'] == 'treasher@123@locked' )
+		if ( $_POST['password'] == 'sherlock' )
 			$_SESSION['admin_logged_in'] = true;
 	}
 	

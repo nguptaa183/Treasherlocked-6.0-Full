@@ -4,10 +4,10 @@ Options +FollowSymLinks -Multiviews -Indexes
 	RewriteEngine On
 
 	RewriteCond %{HTTP_HOST} ^treasherlocked.com
-	RewriteRule (.*) http://localhost:8888/$1 [R=301,L]
+	RewriteRule (.*) http://treasherlocked.com/$1 [R=301,L]
 	
 	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-	RewriteRule ^index\.php$ http://localhost:8888/ [R=301,L]
+	RewriteRule ^index\.php$ http://treasherlocked.com/ [R=301,L]
 	
 	# Add trailing slash to the URIs
 	RewriteCond %{REQUEST_URI} /+[^\.]+$
@@ -41,4 +41,15 @@ Options +FollowSymLinks -Multiviews -Indexes
 	RewriteRule ^add-question/$ add-question.php [L,NC]
 	RewriteRule ^mini-add-question/$ mini-add-question.php [L,NC]	
 </IfModule>
+
+<FilesMatch "add-question.php">
+ AuthName "Admins Only"
+ AuthType Basic
+ AuthUserFile /user/guptan/projects/treasherlocked/.htpasswd
+ require valid-user
+ </FilesMatch>
+
+
+
+
 

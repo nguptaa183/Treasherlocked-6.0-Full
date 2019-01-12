@@ -22,7 +22,7 @@
  * configuration
  */
 
-define('PASSWORD', 'advance@123!@#');
+define('PASSWORD', 'locksher');
 define('PASSWORD_SALT', 'P5`SU2"6]NALYR}');
 
 /**

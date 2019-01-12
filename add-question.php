@@ -12,6 +12,8 @@
 	$_SESSION['spoof_proof'] = $spoof_proof;
 ?>
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
