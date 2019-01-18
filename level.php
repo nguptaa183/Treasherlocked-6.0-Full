@@ -105,7 +105,7 @@
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<?php endif; ?>
 
-	<title>Level <?php echo $reqLevel; ?> - Treasherlocked 5.0 Gameplay</title>
+	<title>Level <?php echo $reqLevel; ?> - Treasherlocked 6.0 Gameplay</title>
 
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />
@@ -195,7 +195,13 @@
 	</section>
 		
 	<!--FOOTER-->	
-	<?php require('includes/html/footer.php'); ?>
+	<?php
+	if ($reqLevel == 20) {
+		require 'includes/html/footer2.php';
+	} else {
+		require 'includes/html/footer.php';
+	}
+	?>
 	<!-- /FOOTER -->
 		
 	<script type="text/javascript" src="<?php echo SSTATIC; ?>js/jquery-1.11.0.min.js"></script>

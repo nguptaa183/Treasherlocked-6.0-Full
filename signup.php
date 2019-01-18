@@ -25,7 +25,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Sign up for Treasherlocked 5.0</title>
+	<title>Sign up for Treasherlocked 6.0</title>
 	
 	<meta name="description" content="Sign up for Treasherlocked 5.0. Register and become a detective because the hunt is on." />
 	<meta name="keywords"  content="treasherlocked register, treasherlocked registration, treasherlocked sign up, how to register for treasherlocked" />
@@ -55,9 +55,9 @@
 					<a class="btn btn-block btn-social btn-lg btn-google-plus" href="<?php echo SITE_URL; ?>oauth/google/">
 						<img src="<?php echo SSTATIC; ?>img/icons/google-plus.png" /> Sign up using Google
 					</a>
-					<a class="btn btn-block btn-social btn-lg btn-twitter" href="<?php echo SITE_URL; ?>oauth/twitter/">
+					<!-- <a class="btn btn-block btn-social btn-lg btn-twitter" href="<?php echo SITE_URL; ?>oauth/twitter/">
 						<img src="<?php echo SSTATIC; ?>img/icons/twitter.png" /> Sign up using Twitter
-					</a>
+					</a> -->
 					<a class="btn btn-block btn-social btn-lg btn-ts">
 						<img src="<?php echo SSTATIC; ?>img/icons/treasherlocked.png" /> Sign up using Treasherlocked
 					</a>

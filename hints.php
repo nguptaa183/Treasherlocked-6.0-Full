@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Hints - Treasherlocked 5.0</title>
+	<title>Hints - Treasherlocked 6.0</title>
 	
 	<meta name="description" content="Get hints to different levels here. Hints are crucial for you in order to progress through levels." />
 	<meta name="keywords"  content="treasherlocked, treasherlocked hints, treasherlocked tips and tricks, treasherlocked level hints" />

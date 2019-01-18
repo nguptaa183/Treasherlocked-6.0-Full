@@ -37,8 +37,8 @@ if ($event_status == EVENT_NOT_STARTED) {
 
 	<title>Treasherlocked 6.0 by Microsoft Campus Club, NIT Rourkela - Treasure is locked, yet again!</title>
 
-	<meta name="description" content="Treasherlocked 6.0 is the sixth installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. It will be held between 6th November and 8th November, 2015." />
-	<meta name="keywords"  content="treasherlocked, treasure locked, treasure sherlocked, sherlock, treasherlocked 3.0, innovision 2015, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
+	<meta name="description" content="Treasherlocked 6.0 is the sixth installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. It will be held between 11th January to 13th January, 2019." />
+	<meta name="keywords"  content="treasherlocked, treasure locked, treasure sherlocked, sherlock, treasherlocked 6.0, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
 
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />
@@ -180,28 +180,36 @@ switch ($event_status) {
 
 			<div class="sponsor">
 				<a href="http://silantechnology.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/silian.jpg" class="img-responsive"/></a>
-				<span class="sponsor-font">Ttile Sponsor</span>
+				<span class="sponsor-font">Gold Sponsor</span>
+			</div>
+			<div class="sponsor">
+				<a href="https://instagram.com/milesawayinsta?utm_source=ig_profile_share&igshid=1sdurub7bpf5u" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/milesaway.png" class="img-responsive"/></a>
+				<span class="sponsor-font">Gold Sponsor</span>
 			</div>
 			<div class="sponsor">
 				<a href="https: //www.facebook.com/RENU-MINU-Restaurant-682809901783987/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/renuminu.png" class="img-responsive"/></a>
-				<span class="sponsor-font">Gold Sponsor</span>
+				<span class="sponsor-font">Silver Sponsor</span>
 			</div>
 			<div class="sponsor">
 				 <a href="https://www.thesouledstore.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/souledstore.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Gifting Partner</span>
 			</div>
 			<div class="sponsor">
+				 <a href="#" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/pci.jpeg" class="img-responsive"/></a>
+				<span class="sponsor-font">Gifting Partner</span>
+			</div>
+			<!-- <div class="sponsor">
 				<a href="http://www.punambookstore.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/punam.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Associate Partner</span>
-			</div>
+			</div> -->
 			<!-- <div class="sponsor">
 				<a href="http://innovision.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/innovision.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Event Partner</span>
 			</div> -->
-			<div class="sponsor">
+			<!--<div class="sponsor">
 				<a href="https://www.facebook.com/Cinematics.nitr/?ref=br_rs" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/cinematics.jpg" class="img-responsive"/></a>
 				<span class="sponsor-font">Publicity Partner</span>
-			</div>
+			</div>-->
 			<div class="sponsor">
 				<a href="http://mondaymorning.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/mm.png" class="img-responsive"/></a>
 				<span class="sponsor-font">Media Partner</span>

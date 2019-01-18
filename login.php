@@ -30,7 +30,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Login to play Treasherlocked 5.0</title>
+	<title>Login to play Treasherlocked 6.0</title>
 	
 	<meta name="description" content="Treasherlocked 5.0 is the second installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. The second installment will be held between 7th November and 9th November, 2017." />
 	<meta name="keywords"  content="treasherlocked, innovision 2017, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
@@ -60,9 +60,9 @@
 					<a class="btn btn-block btn-social btn-lg btn-google-plus" href="<?php echo SITE_URL; ?>oauth/google/">
 						<img src="<?php echo SSTATIC; ?>img/icons/google-plus.png" /> Login with Google
 					</a>
-					<a class="btn btn-block btn-social btn-lg btn-twitter" href="<?php echo SITE_URL; ?>oauth/twitter/">
+					<!-- <a class="btn btn-block btn-social btn-lg btn-twitter" href="<?php echo SITE_URL; ?>oauth/twitter/">
 						<img src="<?php echo SSTATIC; ?>img/icons/twitter.png" /> Login with Twitter
-					</a>
+					</a> -->
 					<a class="btn btn-block btn-social btn-lg btn-ts">
 						<img src="<?php echo SSTATIC; ?>img/icons/treasherlocked.png" /> Login with Treasherlocked
 					</a>

@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>How to play Treasherlocked? - Treasherlocked 5.0</title>
+	<title>How to play Treasherlocked? - Treasherlocked 6.0</title>
 	
 	<meta name="description" content="Tutorial on how to play Treasherlocked." />
 	<meta name="keywords"  content="how to play treasherlocked, how to play treasure hunt, treasherlocked tutorial" />

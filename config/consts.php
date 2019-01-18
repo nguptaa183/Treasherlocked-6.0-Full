@@ -3,14 +3,9 @@
 $document_root = dirname(dirname(__FILE__)) . '/';
 
 /*    Website    */
-// define(    'SITE_URL',         'https://www.treasherlocked.com/' );
-// define(    'SSTATIC',             'https://www.treasherlocked.com/_static/' );
-// define(    'DOCUMENT_ROOT',     $document_root );
-
-/*    Website    */
-define('SITE_URL', 'http://localhost:8888/' );
-define('SSTATIC', 'http://localhost:8888/_static/' );
-define('DOCUMENT_ROOT', $document_root);
+define(    'SITE_URL',         'https://www.treasherlocked.com/' );
+define(    'SSTATIC',             'https://www.treasherlocked.com/_static/' );
+define(    'DOCUMENT_ROOT',     $document_root );
 
 /*    Pages    */
 define('NON_NAV', -1);
@@ -32,7 +27,7 @@ date_default_timezone_set('Asia/Calcutta');
 
 /*    Main Event     */
 define('EVENT_START', strtotime('2019-01-11 21:00:00'));
-define('EVENT_END', strtotime('2019-01-13 23:00:00'));
+define('EVENT_END', strtotime('2019-01-13 21:00:00'));
 
 /*    Event's Constant    */
 define('EVENT_NOT_STARTED', 0);

@@ -26,7 +26,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Forgot password - Treasherlocked 5.0, because the hunt is on</title>
+	<title>Forgot password - Treasherlocked 6.0, because the hunt is on</title>
 	
 	<meta name="description" content="Forgot your password? Reset it here." />
 	<meta name="keywords"  content="Forgot your password? Reset it here." />

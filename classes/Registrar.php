@@ -80,20 +80,20 @@ class Registrar {
 				'<div id="outer" style="width: 80%;margin: 0 auto; margin-top: 10px; padding: 15px 10px; ">'.  
 				   '<div id="inner" style="width: 78%; margin: 0 auto; font-family: Calibri, Open Sans,Arial,sans-serif;font-size: 15px;font-weight: normal;line-height: 1.4em;color: #5f6061; margin-top: 10px;">'. 
 					   '<p><h2>Congratulations!</h2></p>'. 
-					   '<p>Congratulations on signing up for Treasherlocked 4.0. Please click the link below or copy to your browser\'s address bar in order to complete the registration.</p>'. 
+					   '<p>Congratulations on signing up for Treasherlocked 6.0. Please click the link below or copy to your browser\'s address bar in order to complete the registration.</p>'. 
 					   '<p><a href="http://www.treasherlocked.com/verify.php?id=' . $id . '&auth_code=' . $auth_code . '">http://treasherlocked.com/verify.php?id=' . $id .'&auth_code=' . $auth_code . '</a></p>'. 
 					   '<p>Please contact us via <a href="https://www.facebook.com/Treasherlocked">Facebook</a> or drop us a mail at <a href="mailto:msclub.nitr@gmail.com">msclub.nitr@gmail.com</a> on persistence of any problem.</p>'.  
 				   '</div>'.
 				'</div>'. 
 
 				'<div id="footer" style="font-family: Calibri, Open Sans,Arial,sans-serif;font-size: 14px; color: #fff; width: 80%;height: 40px;margin: 0 auto;text-align: center;padding: 10px; background-color: #af262e;">'. 
-				   '2012 - 2016 &copy; <a style="color: #fff;" href="http://msclub.nitrkl.ac.in">Microsoft Campus Club</a> (based in <a style="color: #fff;" href="http://nitrkl.ac.in">National Institute of Technology Rourkela</a>)'. 
+				   '2013 - 2019 &copy; <a style="color: #fff;" href="http://msclub.nitrkl.ac.in">Microsoft Campus Club</a> (based in <a style="color: #fff;" href="http://nitrkl.ac.in">National Institute of Technology Rourkela</a>)'. 
 				'</div>'. 
 				'</body>';   
 
 			$to      = $email;
-			$subject = 'Treasherlocked 4.0 Email Verification'; 
-			$from    = 'do-not-reply@treasherlocked.com';
+			$subject = 'Treasherlocked 6.0 Email Verification'; 
+			$from    = 'donotreply@treasherlocked.com';
 
 			$headers  = "From: " . $from . "\r\n"; 
 			$headers .= "MIME-Version: 1.0\r\n"; 
@@ -132,13 +132,13 @@ class Registrar {
 				'</div>'. 
 
 				'<div id="footer" style="font-family: Calibri, Open Sans,Arial,sans-serif;font-size: 14px; color: #fff; width: 80%;height: 40px;margin: 0 auto;text-align: center;padding: 10px; background-color: #af262e;">'. 
-				   '2013 - 2014 &copy; <a style="color: #fff;" href="http://msclub.nitrkl.ac.in">Microsoft Campus Club</a> (based in <a style="color: #fff;" href="http://nitrkl.ac.in">National Institute of Technology Rourkela</a>)'. 
+				   '2013 - 2019 &copy; <a style="color: #fff;" href="http://msclub.nitrkl.ac.in">Microsoft Campus Club</a> (based in <a style="color: #fff;" href="http://nitrkl.ac.in">National Institute of Technology Rourkela</a>)'. 
 				'</div>'. 
 				'</body>'; 
 
 			$to      = $email;
-			$subject = 'Treasherlocked 4.0 Password Reset'; 
-			$from    = 'do-not-reply@treasherlocked.com';
+			$subject = 'Treasherlocked 6.0 Password Reset'; 
+			$from    = 'donotreply@treasherlocked.com';
 
 			$headers  = "From: " . $from . "\r\n"; 
 			$headers .= "MIME-Version: 1.0\r\n"; 

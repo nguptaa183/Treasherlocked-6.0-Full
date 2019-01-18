@@ -33,7 +33,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Leaderboard - Treasherlocked 5.0 Gameplay</title>
+	<title>Leaderboard - Treasherlocked 6.0 Gameplay</title>
 
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />

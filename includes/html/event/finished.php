@@ -24,7 +24,7 @@ $page = NON_NAV;
 	<![endif]-->
 </head>	   
 <body id="top">
-	<script>
+	<!-- <script>
 var win = window.open('https://www.facebook.com/Cinematics.nitr/', '_blank');
 if (win) {
     //Browser has allowed it to be opened
@@ -33,7 +33,7 @@ if (win) {
     //Browser has blocked it
     alert('Please allow popups for this website');
 }
-</script>
+</script> -->
 
 	<?php require( 'includes/html/header.php' ); ?>
 	
@@ -43,7 +43,7 @@ if (win) {
 				<div class="row box question-box">
 					<div class="row text-center">
 						<h1>Congratulations!</h1>
-						<h3>You have successfully finished Treasherlocked 5.0.</h3>
+						<h3>You have successfully finished Treasherlocked 6.0.</h3>
 						<h2>Rank: #<?php echo $ts->getUserRank(); ?></h2>
 						<div class="space space-40"></div>
 						<img src="<?php echo SSTATIC; ?>img/finish.png" />

@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Treasherlocked Privacy Policy</title>
+	<title>Treasherlocked 5.0 Privacy Policy</title>
 	
 	<meta name="description" content="Treasherlocked 3.0 Privacy Policy" />
 	<meta name="keywords"  content="treasherlocked, privacy, privacy policy" />

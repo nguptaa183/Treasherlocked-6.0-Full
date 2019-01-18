@@ -19,7 +19,7 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>About Treasherlocked 5.0</title>
+	<title>About Treasherlocked 6.0</title>
 	
 	<meta name="description" content="Treasherlocked 5.0 is the second installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. The second installment will be held between 7th November and 9th November, 2014." />
 	<meta name="keywords"  content="treasherlocked, innovision 2014, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
